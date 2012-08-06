@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Options RecentPages="Payment Order#PaymentOrder#;" DocumentsLayout="qwAAAPIJoHfyAHfyAaF38gIA8gCgd/IDd/IEoXfyBQDyAKB38gZ38gehd/IIAPIAoXfyCQDyAKF38goA8gGgd/IL8pahd/IM8gLyAqF38g0A8gmgd/IOd/IPoHfyEHfyEaB38hJ38hOgd/IUd/IVoHfyFqCgd/IXd/IYoHfyGaGhd/IaAPIAoHfyG/IAoXfyHADyBKB38hR38higd/ISd/IdoHfyG/IAoXfyGgDyAPIeDiNMYXlvdXRWZXJzaW9uABpMb2FkaW5nSW5kaWNhdG9yUHJvcGVydGllcxlGbG9hdGluZ0RvY3VtZW50Q29udGFpbmVyDURvY3VtZW50c0hvc3QXRG9jdW1lbnRHcm91cFByb3BlcnRpZXMLT3JpZW50YXRpb24KSG9yaXpvbnRhbBpEb2N1bWVudFNlbGVjdG9yUHJvcGVydGllcxdXaW5kb3dzRGlhbG9nUHJvcGVydGllcxJEb2N1bWVudFByb3BlcnRpZXMLTWF4VGFiV2lkdGgFSXRlbXMFSXRlbTEEU2l6ZRVAMSxXaWR0aD0wQDEsSGVpZ2h0PTAITG9jYXRpb24MQDEsWD0wQDEsWT0wCFR5cGVOYW1lCERvY3VtZW50BE5hbWUMUGF5bWVudE9yZGVyCklzRmxvYXRpbmcKUGFyZW50TmFtZQ5Eb2N1bWVudEdyb3VwMApJc1NlbGVjdGVkClByb3BlcnRpZXMFSW5kZXgFSXRlbTINRG9jdW1lbnRHcm91cA==" Skin="Metropolis" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="12.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.DetailViewForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Currency_ListView" IsNewNode="True" />
+        <FormState Id="SecuritySystemUser_DetailView" IsNewNode="True" />
+        <FormState Id="SecuritySystemUser_ListView" IsNewNode="True" />
+        <FormState Id="Status_ListView" IsNewNode="True" />
+        <FormState Id="Taxes_ListView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.MainForm" NavigationWidth="200" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="125" Y="125" Width="734" Height="641" IsNewNode="True" />
+      </FormStates>
+      <NavBarCustomization Width="192" IsNewNode="True" />
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.PopupForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="AuthenticationStandardLogonParameters_DetailView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+  </Templates>
+</Application>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="Mocosh_Payment_Orders.Module.Currency" IsDesigned="True" />
+  </BOModel>
+  <Views>
+    <DetailView Id="Currency_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" Caption="Main" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Currency" RelativeSize="100" ImageName="" Caption="Currency" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutGroup Id="Auto5eb9bc2a-d7cd-4430-8776-2f7ac7e0ef7e" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="6" IsNewNode="True">
+                <LayoutItem Id="CurrencyCode" ViewItem="CurrencyCode" SizeConstraintsType="Default" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="Status" ViewItem="Status" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto99628811-4d12-4d1b-89c9-5768e24e3ca8" ShowCaption="False" Caption="Auto99628811-4d12-4d1b-89c9-5768e24e3ca8(71)" Direction="Horizontal" Index="1" RelativeSize="93" IsNewNode="True">
+                <LayoutItem Id="CurrencyName" ViewItem="CurrencyName" SizeConstraintsType="Default" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="CurrencySubunit" ViewItem="CurrencySubunit" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="CurrencyCode" SizeConstraintsType="Default" RelativeSize="6" ViewItem="CurrencyCode" Removed="True" />
+              <LayoutItem Id="CurrencyName" ViewItem="CurrencyName" Removed="True" />
+              <LayoutItem Id="CurrencySubunit" ViewItem="CurrencySubunit" Removed="True" />
+              <LayoutItem Id="Status" ViewItem="Status" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

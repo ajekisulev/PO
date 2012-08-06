@@ -1,0 +1,15 @@
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Release\Payment Order.Module.Win.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Release\Payment Order.Module.Win.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Release\Payment Order.Module.Win.xml
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Release\Payment Order.Module.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Release\Payment Order.Module.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Release\Payment Order.Module.xml
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\ResolveAssemblyReference.cache
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\Payment_Order.Module.Win.Resources.resources
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\Payment_Order.Module.Win.Payment_OrderWindowsFormsModule.resources
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\GenerateResource.read.1.tlog
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\GenerateResource.write.1.tlog
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\Payment Order.Module.Win.dll.licenses
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\Payment Order.Module.Win.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\Payment Order.Module.Win.xml
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Release\Payment Order.Module.Win.pdb

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Mocosh ::: Payment Orders" Logo="ExpressAppLogo" Company="Mocosh" Copyright="2012" Description="Process payments from various ERP systems">
+  <NavigationItems>
+    <Items>
+      <Item Id="@8c4e4d78-bccf-405b-bf1e-fb847cdc1853" Caption="Settings" ImageName="ModelEditor_Settings" QuickAccessItem="True" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Currency_ListView" ViewId="Currency_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="PaymentOrderForm" Caption="Payment Order" ViewId="BaseObject_ListView" IsNewNode="True" />
+          <Item Id="Status_ListView" ViewId="Status_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Taxes_ListView" ViewId="Taxes_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Currency_ListView" Removed="True" />
+          <Item Id="Status_ListView" Removed="True" />
+          <Item Id="Taxes_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="12.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

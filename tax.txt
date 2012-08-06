@@ -1,0 +1,75 @@
+TattooStudio.ExpressApp.Module.Entities
+--------------------------------------
+<CreatableItem> _
+<DefaultProperty("Name")> _
+<ImageName("BO_Tax")> _
+<LocationContextCriteria("Locations[Oid = ?]", Exclusions:="Tax_LookupListView_Import")> _
+<NavigationItem> _
+Public Class Tax
+    Inherits BaseObject
+    Implements ICloneable
+    Private fName As String
+
+    <Persistent("Rate")> _
+    Private rateCore As Decimal
+
+    <Appearance("TaxLocationsHiddenWhenNotLicensed", Visibility:=ViewItemVisibility.Hide, Criteria:="!ShowLocations", Context:="DetailView")> _
+    <Association("LocationTax", UseAssociationNameAsIntermediateTableName:=True)> _
+    Public ReadOnly Property Locations As XPCollection(Of Location)
+        Get
+            Return MyBase.GetCollection(Of Location)("Locations")
+        End Get
+    End Property
+
+    <RuleRequiredField("RuleRequiredField for Tax.Name", DefaultContexts.Save, "Name is required.")> _
+    <RuleUniqueValue("RuleUniqueValue for Tax.Name", DefaultContexts.Save, "Name already exists.")> _
+    <Size(128)> _
+    Public Property Name As String
+        Get
+            Return Me.fName
+        End Get
+        Set(ByVal value As String)
+            MyBase.SetPropertyValue(Of String)("Name", Me.fName, value)
+        End Set
+    End Property
+
+    <Custom("DisplayFormat", "{0:N}%")> _
+    <Custom("EditMask", "##0.##\%")> _
+    <NonPersistent> _
+    <RuleRange("RuleRange for Tax.Rate", DefaultContexts.Save, 0, 100, "Value must be between 0 and 100.")> _
+    <RuleRequiredField("RuleRequiredField for Tax.Rate", DefaultContexts.Save, "Rate is required.")> _
+    Public Property Rate As Decimal
+        Get
+            Return Me.rateCore * New Decimal(100)
+        End Get
+        Set(ByVal value As Decimal)
+            Me.rateCore = value / New Decimal(100)
+        End Set
+    End Property
+
+    <Browsable(False)> _
+    <VisibleInDetailView(False)> _
+    <VisibleInListView(False)> _
+    <VisibleInLookupListView(False)> _
+    Private ReadOnly Property ShowLocations As Boolean
+        Get
+            Return LicenseContext.Instance.LocationCount > 1
+        End Get
+    End Property
+
+    Public Sub New(ByVal session As Session)
+        MyBase.New(session)
+    End Sub
+
+    Public Overrides Sub AfterConstruction()
+        MyBase.AfterConstruction()
+        If (SecuritySystem.IsAuthenticated) Then
+            Me.Locations.Add(MyBase.Session.GetObjectByKey(Of Location)(MySecuritySystem.CurrentLocationId))
+        End If
+    End Sub
+
+    Public Function Clone() As Object 
+        Return DirectCast(MyBase.MemberwiseClone(), Tax)
+    End Function
+End Class
+

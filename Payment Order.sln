@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Payment Order.Module", "Payment Order.Module\Payment Order.Module.vbproj", "{64C00996-0C56-4BCB-9CD4-51CF03E915E4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Payment Order.Module.Win", "Payment Order.Module.Win\Payment Order.Module.Win.vbproj", "{DBDC09F6-07A7-47DC-9FD3-8E0582768A66}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Payment Order.Win", "Payment Order.Win\Payment Order.Win.vbproj", "{4D64B99D-FF89-4205-B530-65C03078EE5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C00996-0C56-4BCB-9CD4-51CF03E915E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C00996-0C56-4BCB-9CD4-51CF03E915E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C00996-0C56-4BCB-9CD4-51CF03E915E4}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{64C00996-0C56-4BCB-9CD4-51CF03E915E4}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{64C00996-0C56-4BCB-9CD4-51CF03E915E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C00996-0C56-4BCB-9CD4-51CF03E915E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDC09F6-07A7-47DC-9FD3-8E0582768A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDC09F6-07A7-47DC-9FD3-8E0582768A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDC09F6-07A7-47DC-9FD3-8E0582768A66}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{DBDC09F6-07A7-47DC-9FD3-8E0582768A66}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{DBDC09F6-07A7-47DC-9FD3-8E0582768A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDC09F6-07A7-47DC-9FD3-8E0582768A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D64B99D-FF89-4205-B530-65C03078EE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D64B99D-FF89-4205-B530-65C03078EE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D64B99D-FF89-4205-B530-65C03078EE5E}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{4D64B99D-FF89-4205-B530-65C03078EE5E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{4D64B99D-FF89-4205-B530-65C03078EE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D64B99D-FF89-4205-B530-65C03078EE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

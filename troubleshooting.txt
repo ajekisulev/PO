@@ -1,0 +1,2 @@
+n the meantime, please try to remove the ModelAsembly.dll near your executable file, remove the RecentPages attribute in the Model.User.XAFML file and see whether the problem has gone.
+If this does not help, please set the Options | RestoreTabbedMdiLayout property to False.

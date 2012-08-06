@@ -1,0 +1,20 @@
+Add Custom Data to the Audit Log
+Object changes are represented by AuditDataItem objects (see Audit Trail Module Overview). You can add custom data (information on events that are not audited) to the audit log directly. This means that you can add an AuditDataItem object to the Audit Data Items collection. For this purpose, specify the following code.
+
+	
+C#
+VB
+	
+Dim customDataItem As AuditDataItem = New AuditDataItem(myAuditedObject, Nothing, _
+"CustomOldValue", "CustomNewValue", AuditOperationType.CustomData)
+AuditTrailService.Instance.AddCustomAuditData(mySession, customDataItem)
+AuditTrailService.Instance.SaveAuditData(mySession)
+
+-----------------------------------------------------
+Imports System.Data.SqlClient
+  Public Sub OnBeginSaveTransaction(ByVal session As Session) _
+            Implements IAuditTimestampStrategy.OnBeginSaveTransaction
+         Dim command As SqlCommand = New SqlCommand("select getdate()", _
+            CType(session.Connection, SqlConnection))
+         cachedTimestamp = CDate(command.ExecuteScalar())
+      End Sub 

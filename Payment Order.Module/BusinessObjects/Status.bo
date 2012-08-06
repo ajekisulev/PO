@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="Mocosh_Payment_Orders.Module.Status" IsDesigned="True" />
+  </BOModel>
+  <Views>
+    <DetailView Id="Status_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" Caption="Main" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" Caption="SimpleEditors" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Status" RelativeSize="100" Caption="Status" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutGroup Id="Status_col1" RelativeSize="48" ImageName="" Direction="Vertical">
+                <LayoutItem Id="StatusCode" SizeConstraintsType="Default" RelativeSize="7" Index="0" ViewItem="StatusCode" />
+                <LayoutItem Id="StatusName" SizeConstraintsType="Default" RelativeSize="92" Index="1" ViewItem="StatusName" />
+                <LayoutItem Id="BankHdr" SizeConstraintsType="Default" RelativeSize="87" ViewItem="BankHdr" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Status_col2" RelativeSize="48" ImageName="" Caption="Status_col2" Direction="Horizontal">
+                <LayoutItem Id="Currency" ViewItem="Currency" Removed="True" />
+                <LayoutItem Id="PaymentOrderType" ViewItem="PaymentOrderType" Removed="True" />
+              </LayoutGroup>
+              <LayoutItem Id="BankHdr" ViewItem="BankHdr" Removed="True" />
+              <LayoutItem Id="Currency" ViewItem="Currency" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Status_ListView" IsFooterVisible="False">
+      <Columns>
+        <ColumnInfo Id="BankHdr" SortIndex="-1" SortOrder="None" Index="-1" />
+        <ColumnInfo Id="Currency" SortIndex="-1" SortOrder="None" Index="-1" />
+        <ColumnInfo Id="PaymentOrderType" SortIndex="0" SortOrder="Ascending" Index="-1" />
+        <ColumnInfo Id="StatusName" SortIndex="-1" SortOrder="None" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="Mocosh_Payment_Orders.Module.Taxes" IsDesigned="True">
+      <OwnMembers>
+        <Member Name="TaxCode" Size="15" />
+        <Member Name="TaxPercent" Size="4" DisplayFormat=" {0:0%}" EditMask="p" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views>
+    <DetailView Id="Taxes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" Caption="Main" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Taxes" RelativeSize="100" ImageName="" Caption="Taxes" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="TaxCode" SizeConstraintsType="Default" RelativeSize="6" ViewItem="TaxCode" />
+              <LayoutItem Id="TaxName" SizeConstraintsType="Default" RelativeSize="5" ViewItem="TaxName" />
+              <LayoutItem Id="TaxPercent" SizeConstraintsType="Default" RelativeSize="88" MinSize="132, 32" MaxSize="0, 0" ViewItem="TaxPercent" />
+              <LayoutItem Id="PaymentOrderType" ViewItem="PaymentOrderType" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Taxes_ListView" IsFooterVisible="False">
+      <Columns>
+        <ColumnInfo Id="PaymentOrderType" SortIndex="0" SortOrder="Ascending" Index="-1" />
+        <ColumnInfo Id="TaxName" SortIndex="-1" SortOrder="None" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

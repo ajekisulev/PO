@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Options RecentPages="Payment Order#PaymentOrder#;Currency#fe9dc31f-7218-4125-9864-0852bf78b2ba#ViewID=Currency_ListView&amp;ObjectKey=&amp;ScrollPosition=&amp;ObjectClassName=Payment_Order.Module.Currency|;Status#d99b53c6-0428-4a04-8341-e4975b6d68fe#ViewID=Status_ListView&amp;ObjectKey=&amp;ScrollPosition=&amp;ObjectClassName=Payment_Order.Module.Status|;" DocumentsLayout="LQEAAPIJoHfyAHfyAaF38gIA8gCgd/IDd/IEoXfyBQDyAKB38gZ38gehd/IIAPIAoXfyCQDyAKF38goA8gGgd/IL8pahd/IM8gTyBKF38g0A8gmgd/IOd/IPoHfyEHfyEaB38hJ38hOgd/IUd/IVoHfyFqCgd/IXd/IYoHfyGaChd/IaAPIAoHfyG/IAoXfyHADyCaB38g538g+gd/IQd/IRoHfyEnfyE6B38hR38h2gd/IWoKB38hd38higd/IZoKF38hoA8gCgd/Ib8gGhd/IeAPIJoHfyDnfyD6B38hB38h+gd/ISd/IToHfyFHfyIKB38hagoHfyF3fyGKB38hmhoXfyGgDyAKB38hvyAqF38iEA8gSgd/IUd/IYoHfyEnfyIqB38hvyAKF38hoA8gDyIw4jTGF5b3V0VmVyc2lvbgAaTG9hZGluZ0luZGljYXRvclByb3BlcnRpZXMZRmxvYXRpbmdEb2N1bWVudENvbnRhaW5lcg1Eb2N1bWVudHNIb3N0F0RvY3VtZW50R3JvdXBQcm9wZXJ0aWVzC09yaWVudGF0aW9uCkhvcml6b250YWwaRG9jdW1lbnRTZWxlY3RvclByb3BlcnRpZXMXV2luZG93c0RpYWxvZ1Byb3BlcnRpZXMSRG9jdW1lbnRQcm9wZXJ0aWVzC01heFRhYldpZHRoBUl0ZW1zBUl0ZW0xBFNpemUaQDQsV2lkdGg9MTIzNEAzLEhlaWdodD03MzIITG9jYXRpb24TQDUsWD0tMTIzNEA0LFk9LTczMghUeXBlTmFtZQhEb2N1bWVudAROYW1lDFBheW1lbnRPcmRlcgpJc0Zsb2F0aW5nClBhcmVudE5hbWUORG9jdW1lbnRHcm91cDAKSXNTZWxlY3RlZApQcm9wZXJ0aWVzBUluZGV4BUl0ZW0yJGZlOWRjMzFmLTcyMTgtNDEyNS05ODY0LTA4NTJiZjc4YjJiYQVJdGVtMw1AMSxYPTNAMixZPTI1JGQ5OWI1M2M2LTA0MjgtNGEwNC04MzQxLWU0OTc1YjZkNjhmZQVJdGVtNA1Eb2N1bWVudEdyb3Vw" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="12.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.DetailViewForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Currency_ListView" IsNewNode="True" />
+        <FormState Id="Status_ListView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.MainForm" NavigationWidth="200" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="75" Y="75" Width="802" Height="598" IsNewNode="True" />
+      </FormStates>
+      <NavBarCustomization Width="192" IsNewNode="True" />
+    </Template>
+  </Templates>
+</Application>

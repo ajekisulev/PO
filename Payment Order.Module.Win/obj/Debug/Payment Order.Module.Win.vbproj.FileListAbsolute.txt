@@ -1,0 +1,46 @@
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.Win.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.Win.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.Win.xml
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.xml
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\ResolveAssemblyReference.cache
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment_Order.Module.Win.Resources.resources
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment_Order.Module.Win.Payment_OrderWindowsFormsModule.resources
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\GenerateResource.read.1.tlog
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\GenerateResource.write.1.tlog
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment Order.Module.Win.dll.licenses
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment Order.Module.Win.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment Order.Module.Win.xml
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment Order.Module.Win.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.ExpressApp.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.ExpressApp.ImportWizard.Win.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.ExpressApp.Win.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.ExpressApp.ImportWizard.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.Persistent.Base.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.Xpo.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.Utils.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Wintellect.Threading.dll
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.ExpressApp.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.ExpressApp.ImportWizard.Win.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.ExpressApp.Win.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.ExpressApp.ImportWizard.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.Persistent.Base.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.Xpo.pdb
+D:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Xpand.Utils.pdb
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.Win.dll
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.Win.pdb
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.Win.xml
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.dll
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.pdb
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\bin\Debug\Payment Order.Module.xml
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\ResolveAssemblyReference.cache
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment_Order.Module.Win.Resources.resources
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment_Order.Module.Win.Payment_OrderWindowsFormsModule.resources
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\GenerateResource.read.1.tlog
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\GenerateResource.write.1.tlog
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment Order.Module.Win.dll.licenses
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment Order.Module.Win.dll
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment Order.Module.Win.xml
+C:\Sander\XAF\Payment Order\Payment Order.Module.Win\obj\Debug\Payment Order.Module.Win.pdb
